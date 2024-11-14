@@ -1,0 +1,39 @@
+<html>
+ <head>
+
+<script language="JavaScript"> 
+function show_alert() { alert("ALERT ALERT ALERT ALERT"); }
+
+ function WinOpen_obraz1() 
+ {
+window.open("obrazzad1.html","obraz 1","height=450,width=250,top=600,left=400");
+ }
+
+   function show_confirm() 
+ { 
+ var r=confirm("kliknij "); 
+ if (r==true) 
+ { document.write("ok."); } 
+ else 
+ { document.write("cancelowane"); } 
+ }
+  
+function show_prompt() 
+ { 
+ var name=prompt("wpisz cokolwiek","cokolwiek"); 
+ if (name!=null && name!="") 
+ { 
+ document.write("kreatywnie napisano" + name + ". Super"); 
+ } 
+ </script>
+ </head>
+<body>
+<input type="button" onclick="show_alert()" value="ALERTALERTALERT"/> <br>
+<input type="button" onclick="show_confirm()" value="Pokaż confirm box"/><br>
+<input type="button" onclick="show_prompt()" value="Pokaż prompt box"/><br>
+ <form>
+  
+ <input type="button" name="obraz1" value="grafika1" onclick="WinOpen_obrazzad1(' ')">
+ </form>
+</body>
+</html>
