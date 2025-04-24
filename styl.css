@@ -1,0 +1,36 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .emotion {
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      color: white;
+    }
+    .freude {
+      background-color: #FFD700;
+      color: black;
+    }
+    .traurigkeit {
+      background-color: #4682B4;
+    }
+    .angst {
+      background-color: #8B0000;
+    }
+    .überraschung {
+      background-color: #FF8C00;
+    }
+    .liebe {
+      background-color: #FF69B4;
+    }
+    .polnisch {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
