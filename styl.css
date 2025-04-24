@@ -1,12 +1,11 @@
 
     body {
       font-family: Verdana;
-      font-color: white;
       background-color: #800080;
       padding: 30px;
     }
     {
-      color: #000000;
+      color: white;
     }
     .emocje {
       padding: 15px;
