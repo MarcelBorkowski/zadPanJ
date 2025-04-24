@@ -1,36 +1,36 @@
 
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
+      font-family: Verdana;
+      background-color: #800080;
+      padding: 30px;
     }
     {
-      color: #333;
+      color: #000000;
     }
-    .emotion {
+    .emocje {
       padding: 15px;
       margin: 10px 0;
       border-radius: 10px;
-      color: white;
+      color: green;
     }
-    .freude {
+    .radosc {
       background-color: #FFD700;
       color: black;
     }
-    .traurigkeit {
+    .smutek {
       background-color: #4682B4;
     }
-    .angst {
+    .zlosc {
       background-color: #8B0000;
     }
-    .überraschung {
+    .zaskoczenie {
       background-color: #FF8C00;
     }
-    .liebe {
+    .milosc {
       background-color: #FF69B4;
     }
-    .polnisch {
-      font-style: italic;
-      font-size: 0.9em;
-      color: #f0f0f0;
+    .polski {
+      font-style: Verdana;
+      font-size: 1px;
+      color: #000000;
     }
